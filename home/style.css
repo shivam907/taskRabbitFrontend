@@ -706,7 +706,7 @@ button {
     margin-top: 3rem;
   }
   .serviceBox {
-    margin-top: 1rem;
+    margin-top: 3rem;
     width: 40rem;
     padding: 2rem;
     background-color: #f9f9f9;
@@ -745,7 +745,7 @@ button {
     padding: 1rem;
   }
   .serviceCard {
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -915,21 +915,25 @@ button {
     display: flex;
     padding: 2rem;
     flex-direction: column;
-    gap: 3rem;
+    /* gap: 3rem; */
   }
   .footerContent h1 {
     font-size: 3rem;
+    margin-bottom: 2rem;
   }
   .footerContent p {
     font-size: 1.6rem;
+    margin-bottom: 2rem;
     color: #797979;
     line-height: 1.6;
   }
   .email {
     display: flex;
     gap: 2rem;
+    margin-bottom: 2rem;
   }
   .email ion-icon {
+    margin-right: 2rem;
     align-self: center;
     color: #5236ff;
     font-size: 2rem;
@@ -944,18 +948,26 @@ button {
     font-size: 1.6rem;
     color: #797979;
   }
+  .fr2 {
+    max-width: 10rem;
+  }
   .fr2 h1 {
     /* width: 20rem; */
     width: 0 !important;
     padding-bottom: 2rem;
     border-bottom: 2px solid #00000015;
+    margin-bottom: 3rem;
   }
   .fr2 ul {
     margin-top: 2.5rem;
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    /* gap: 1.5rem; */
+  }
+
+  .fr2 a {
+    margin-bottom: 1.5rem;
   }
   .card {
     position: absolute;

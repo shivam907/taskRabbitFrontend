@@ -979,13 +979,15 @@ button {
     padding: 3rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    /* gap: 2rem; */
   }
   .card a {
     color: #5236ff;
+    margin-bottom: 2rem;
   }
   .card h1 {
     line-height: 1.3;
+    margin-bottom: 2rem;
   }
   .appstore {
     cursor: pointer;
@@ -998,6 +1000,7 @@ button {
     align-items: center;
     font-size: 1.8rem;
     justify-content: center;
+    margin-right: 1rem;
     color: #fff;
   }
   .playstore {
@@ -1043,6 +1046,7 @@ button {
   .copyright {
     width: 100vw;
     margin: 5rem auto;
+    padding: 0 5rem;
     display: flex;
     justify-content: space-between;
   }
@@ -1052,9 +1056,10 @@ button {
   }
   .socials {
     display: flex;
-    gap: 1.5rem;
+    /* gap: 1.5rem; */
   }
   .socials ion-icon {
+    margin-left: 2rem;
     font-size: 2rem;
     color: #797979;
   }

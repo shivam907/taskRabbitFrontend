@@ -662,13 +662,13 @@ button {
     font-size: 4rem;
     letter-spacing: 0.2rem;
     line-height: 1.1;
-    margin-bottom: 1rem;
+    margin: 3rem 0 2rem;
     font-weight: 800;
   }
 
   .hc1 p {
     font-size: 1.6rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     line-height: 1.8;
     color: #797979;
   }
@@ -686,7 +686,7 @@ button {
   }
   .services {
     width: 100vw;
-    margin: 30rem auto;
+    margin: 40rem auto;
     margin-bottom: 10rem;
   }
   .services h1 {
@@ -701,7 +701,7 @@ button {
     margin-top: 3rem;
   }
   .serviceBox {
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
     width: 40rem;
     padding: 2rem;
     background-color: #f9f9f9;
@@ -854,7 +854,7 @@ button {
     color: gold;
   }
   .start {
-    width: 100vw;
+    width: 97vw;
     /* height: 50rem; */
     /* border-top-right-radius: 5rem; */
     /* border-bottom-right-radius: 7rem; */
@@ -869,6 +869,8 @@ button {
     justify-content: center;
     gap: 3rem;
     padding: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .start h1 {

@@ -673,6 +673,7 @@ button {
   .services {
     width: 100vw;
     margin: 30rem auto;
+    margin-bottom: 10rem;
   }
   .services h1 {
     color: #5236ff;
@@ -730,5 +731,145 @@ button {
     justify-content: center;
     flex-direction: column;
     gap: 4rem;
+  }
+  .about {
+    width: 100vw;
+    /* height: 50rem; */
+    background-color: #5236ff;
+    background-image: url("Background\ \(2\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .aboutContent {
+    /* padding: 10rem; */
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+  .aboutContent h1 {
+    color: #fff;
+
+    padding: 1.5rem 2.3rem;
+    background-color: #ffffff20;
+    border-radius: 5rem;
+    font-size: 1.8rem;
+    width: max-content;
+    /* font-size: 4rem; */
+    text-align: center;
+  }
+  .aboutContent h2 {
+    color: #fff;
+    font-size: 4rem;
+    text-align: center;
+  }
+  .aboutContent span {
+    margin-top: -5rem;
+    font-family: cursive;
+    font-size: 10rem;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+  }
+  .row {
+    margin-top: -7rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    width: 150%;
+    margin-bottom: 1rem;
+  }
+  .aboutContent p {
+    width: 60rem;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    text-align: center;
+    color: #fff;
+  }
+  button {
+    border: none;
+  }
+  .rbtn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6rem;
+    height: 6rem;
+    font-size: 10rem;
+    padding: 1rem;
+    background-color: #ffffff20;
+    color: #fff;
+    border-radius: 50%;
+  }
+  .rbtn ion-icon {
+    font-size: 2rem;
+  }
+  .aboutContent img {
+    margin-top: 2rem;
+    width: 10rem;
+    border-radius: 50%;
+  }
+  .user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .user h1 {
+    font-size: 2.4rem;
+    color: #fff;
+    padding: 0;
+    background-color: transparent;
+    margin-top: 1rem;
+  }
+  .user p {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-top: 2rem;
+  }
+  .stars {
+    display: flex;
+    gap: 0.3rem;
+  }
+  .stars ion-icon {
+    font-size: 2.5rem;
+    color: gold;
+  }
+  .start {
+    width: 100vw;
+    /* height: 50rem; */
+    /* border-top-right-radius: 5rem; */
+    /* border-bottom-right-radius: 7rem; */
+    /* border-radius: 50px; */
+    border-radius: 5rem;
+    margin: 10rem auto;
+    background: url("Background\ \(3\).png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    padding: 5rem;
+  }
+
+  .start h1 {
+    font-size: 4rem;
+    color: #fff;
+  }
+  .start p {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #fff;
+    line-height: 1.6;
+  }
+
+  .btnss {
+    display: flex;
+    gap: 2rem;
+    color: #5236ff;
   }
 }

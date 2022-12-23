@@ -22,29 +22,20 @@
   width: 100vw;
   margin: 0 auto;
   position: relative;
-  height: 81rem;
+  height: 102vh;
   display: flex;
   flex-direction: column;
-  background-image: url("Testimonial.svg");
+  background-image: url("Background\ \(3\).png");
+  background-position: center;
   background-size: cover;
   /* background-color: antiquewhite; */
   /* background-image: url("./Background.png"); */
   background-repeat: no-repeat;
+  margin-bottom: 10rem;
   /* background-size: 70%; */
   /* background-position: right; */
   /* background-position: top right; */
   /* z-index: 1; */
-}
-.hero-img1 {
-  position: absolute;
-  right: 0;
-  width: 75%;
-}
-
-.hero-img2 {
-  position: absolute;
-  width: 100%;
-  z-index: -1;
 }
 
 nav {
@@ -81,23 +72,7 @@ nav {
 .chitta {
   color: #fff;
 }
-.heroContent h1 {
-  font-size: 5rem;
-  color: #fff;
-}
-.heroContent h2 {
-  font-size: 3rem;
-  color: #fff;
-}
-.heroContent p {
-  font-size: 1.6rem;
-  color: #fff;
-  line-height: 1.6;
-  max-width: 80rem;
-  text-align: center;
-  align-self: center;
-  letter-spacing: 0.1rem;
-}
+
 .logo {
   font-size: 3rem;
   color: #fff;
@@ -143,26 +118,8 @@ nav {
   background-color: #e8e4ff;
 }
 
-.heroContent {
-  width: 120rem;
-  margin: 0 auto;
-  height: 100%;
-  display: flex;
-  padding-top: 5rem;
-  flex-direction: column;
-  justify-content: center;
-  gap: 10rem;
-  align-items: center;
-}
-
 a {
   text-decoration: none;
-}
-
-.hcbtn {
-  /* margin-top: 2rem; */
-  display: flex;
-  gap: 2rem;
 }
 
 .signUp {
@@ -191,23 +148,6 @@ a {
 .logIn:hover {
   background-color: #e8e4ff;
 }
-.hc2 input {
-  width: 40rem;
-  padding: 1.5rem 2rem;
-  border-radius: 5rem;
-  background-color: #ffffff30;
-  display: flex;
-  font-size: 1.8rem;
-  outline: none;
-  align-items: center;
-  color: #fff;
-  border: none;
-}
-
-.hc2 input::placeholder {
-  color: #fff;
-  font-size: 1.8rem;
-}
 
 input:focus {
   outline: 1px solid #fff;
@@ -223,99 +163,63 @@ input:focus {
   color: #000;
 }
 
-.serviceImg .chittabtn {
-  color: #5236ff;
-  font-weight: 700;
-}
-
-.hcbt {
-  width: 40rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-
-  gap: 1rem;
-}
 .chittabtn:hover {
   background-color: #efecff;
 }
-.services {
+.heroContent {
   width: 120rem;
-  margin: 10rem auto;
-}
-.services h1 {
-  color: #5236ff;
-  font-size: 4.2rem;
-  text-align: center;
-  z-index: 2;
-}
-.services h2 {
-  font-size: 3rem;
-  text-align: center;
-  margin-top: 3rem;
-}
-.serviceBox {
-  width: 40rem;
-  padding: 2rem;
-  background-color: #f9f9f9;
-  border-radius: 2.5rem;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
-  transition: all 0.2s ease-in-out;
-}
-.serviceBox:hover {
-  transform: translateY(-2rem);
-  transition: all 0.2s ease-in-out;
-}
-.serviceImg {
-  border-radius: 2.5rem;
-  width: 100%;
-  height: 20rem;
-  background-image: url("Photo.png");
-  padding: 1rem;
+  margin: 15rem auto;
   display: flex;
-  align-items: flex-end;
-  background-size: cover;
 }
-.serviceBox h1 {
-  margin-top: 3rem;
-  color: #242331;
-  font-size: 2rem;
+.hrc1 {
+  width: 50%;
 }
-.serviceBox p {
-  margin-top: 3rem;
-  padding-bottom: 3rem;
-  color: #797979;
-  border-bottom: 2px solid #00000015;
-  font-size: 1.4rem;
-  line-height: 1.6;
-}
-.serviceImg .chittabtn {
-  width: 20rem;
-  font-size: 1.6rem;
-  padding: 1rem;
-}
-.serviceCard {
-  margin-top: 5rem;
-  display: flex;
-  gap: 4rem;
-}
-
-.serviceBox ul {
-  margin-top: 2rem;
+.hrc2 {
+  width: 50%;
+  align-self: center;
+  /* background-color: #000; */
   display: flex;
   flex-direction: column;
 }
-
-.serviceBox ul a {
+.hrc1 h1 {
+  font-size: 4rem;
+  color: #fff;
+}
+.input1 {
+  width: 100%;
+  display: flex;
+  margin-bottom: 2rem;
+}
+.inputBox {
+  width: 100%;
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+.inputBox label {
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.inputBox input {
+  padding: 1.5rem 3rem;
   font-size: 1.6rem;
-  color: #5236ff;
-  margin-top: 1rem;
-}
-.serviceBox ul a:hover {
-  /* font-size: 1.6rem; */
-  color: #15009e;
-  /* margin-top: 1rem; */
-}
+  border: none;
+  color: #797979;
+  border-radius: 1.2rem;
 
+  width: 100%;
+}
+.hrc2 a {
+  margin-top: 2rem;
+  text-align: center;
+  margin-left: 3rem;
+}
+.inputBox input::placeholder {
+  font-size: 1.5rem;
+  color: #797979;
+}
 .footerContent {
   width: 120rem;
   margin: 0 auto;

@@ -662,7 +662,7 @@ button {
     font-size: 4rem;
     letter-spacing: 0.2rem;
     line-height: 1.1;
-    margin: 3rem 0 2rem;
+    margin: 3rem 0 4rem;
     font-weight: 800;
   }
 
@@ -679,6 +679,10 @@ button {
   }
   .hc2 input::placeholder {
     color: #5236ff;
+  }
+  .hcbtn {
+    display: flex;
+    gap: 4rem;
   }
   .hcbt .chittabtn {
     border: 1px solid #5236ff;

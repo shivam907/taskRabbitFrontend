@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito";
+  font-size: 62.5%;
+}
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #00000030;
+}
+
+.hero {
+  position: relative;
+  width: 80rem;
+  margin: 0 auto;
+  padding: 8rem;
+  border-radius: 5rem;
+  /* height: 0r/em; */
+  /* padding-bottom: 10rem; */
+  /* position: relative; */
+  /* height: 102vh; */
+  /* height: 50rem; */
+  display: flex;
+  flex-direction: column;
+  background-image: url("Background\ \(3\).png");
+  background-position: center;
+  /* background-size: cover; */
+  /* background-color: antiquewhite; */
+  /* background-image: url("./Background.png"); */
+  /* background-repeat: no-repeat; */
+  /* margin-bottom: 10rem; */
+  /* background-size: 70%; */
+  /* background-position: right; */
+  /* background-position: top right; */
+  /* z-index: 1; */
+}
+
+a {
+  text-decoration: none;
+}
+
+.signUp {
+  padding: 1.5rem 3rem;
+  font-size: 1.6rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #5236ff;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+  border-radius: 5rem;
+}
+.signUp:hover {
+  background-color: #735eff;
+}
+.logIn {
+  padding: 1.5rem 3rem;
+  font-size: 1.6rem;
+  color: #5236ff;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+  background-color: #efecff;
+  border-radius: 5rem;
+}
+
+.logIn:hover {
+  background-color: #e8e4ff;
+}
+
+input:focus {
+  outline: 1px solid #fff;
+}
+.chittabtn {
+  font-size: 1.6rem;
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5rem;
+  background-color: #fff;
+  color: #000;
+}
+
+.chittabtn:hover {
+  background-color: #efecff;
+}
+.heroContent {
+  width: 100%;
+  margin: 0 auto;
+  /* margin-bottom: 10rem; */
+  display: flex;
+}
+.hrc1 {
+  width: 50%;
+}
+.hrc2 {
+  width: 100%;
+  align-self: center;
+  /* background-color: #000; */
+  display: flex;
+  flex-direction: column;
+}
+.hrc2 h1 {
+  font-size: 4rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  color: #fff;
+}
+.input1 {
+  width: 100%;
+  display: flex;
+  margin-bottom: 2rem;
+}
+.inputBox {
+  width: 100%;
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+.inputBox label {
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.inputBox input {
+  padding: 1.5rem 3rem;
+  font-size: 1.6rem;
+  border: none;
+  color: #797979;
+  border-radius: 1.2rem;
+
+  width: 100%;
+}
+.hrc2 a {
+  margin-top: 2rem;
+  text-align: center;
+  margin-left: 3rem;
+}
+.inputBox input::placeholder {
+  font-size: 1.5rem;
+  color: #797979;
+}
+
+.hero ion-icon {
+  font-size: 2.5rem;
+  padding: 0.7rem;
+  cursor: pointer;
+  color: #5236ff;
+  max-width: 5rem;
+  max-height: 5rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: absolute;
+  top: 3rem;
+  right: 3rem;
+}

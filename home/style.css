@@ -872,7 +872,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 3rem;
+    /* gap: 3rem; */
     padding: 5rem;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -881,12 +881,14 @@ button {
   .start h1 {
     font-size: 4rem;
     color: #fff;
+    margin-bottom: 3rem;
   }
   .start p {
     font-size: 1.8rem;
     font-weight: 300;
     color: #fff;
     line-height: 1.6;
+    margin-bottom: 4rem;
   }
 
   .btnss {

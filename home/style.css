@@ -107,7 +107,7 @@ nav {
   color: #fff;
   cursor: pointer;
   z-index: 1;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 .nav ul li:hover {
@@ -121,7 +121,7 @@ nav {
 }
 .nav a {
   z-index: 1;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   padding: 1.5rem 3rem;
   border-radius: 5rem;
   background-color: #fff;

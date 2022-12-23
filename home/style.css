@@ -552,7 +552,7 @@ button {
     width: 100vw;
     margin: 0 auto;
     position: relative;
-    height: 50rem;
+    /* height: 50rem; */
     display: flex;
     flex-direction: column;
     /* background-color: antiquewhite; */
@@ -616,14 +616,14 @@ button {
     /* width: 120rem; */
     width: 100vw;
     margin: 0 auto;
-    height: 100%;
+    /* height: 100%; */
     display: flex;
     flex-direction: column;
   }
   .hc1 {
     width: 100vw;
     /* padding: 0 5rem; */
-    height: 100%;
+    /* height: 100%; */
     display: flex;
     flex-direction: column;
     /* gap: 5rem; */
@@ -634,7 +634,7 @@ button {
   }
   .hc2 {
     width: 100vw;
-    height: 100%;
+    /* height: 100%; */
     padding-top: 5rem;
     z-index: 1;
     display: flex;

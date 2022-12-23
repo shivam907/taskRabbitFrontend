@@ -566,7 +566,7 @@ button {
   .hero-img1 {
     position: absolute;
     right: 0;
-    width: 100%;
+    width: 100vw;
     z-index: -1;
   }
 
@@ -576,6 +576,7 @@ button {
 
   nav {
     /* width: 120rem; */
+    width: 100vw;
     /* margin: 0 auto; */
     padding: 4rem;
     display: flex;
@@ -586,6 +587,7 @@ button {
 
   .logo {
     font-size: 3rem;
+    color: #fff;
   }
 
   .nav ul {
@@ -597,6 +599,7 @@ button {
     gap: 5rem;
   }
   .nav a {
+    display: none;
     z-index: 1;
     font-size: 1.8rem;
     padding: 1.5rem 3rem;
@@ -611,22 +614,25 @@ button {
 
   .heroContent {
     /* width: 120rem; */
+    width: 100vw;
     margin: 0 auto;
     height: 100%;
     display: flex;
     flex-direction: column;
   }
   .hc1 {
-    width: 50%;
+    width: 100vw;
+    /* padding: 0 5rem; */
     height: 120%;
     display: flex;
     flex-direction: column;
     gap: 5rem;
     z-index: 1;
+    align-items: center;
     justify-content: flex-end;
   }
   .hc2 {
-    width: 50%;
+    width: 100vw;
     height: 100%;
     z-index: 1;
     display: flex;
@@ -637,6 +643,7 @@ button {
     gap: 2rem;
   }
   .hc1 h1 {
+    text-align: center;
     font-size: 5rem;
     letter-spacing: 0.2rem;
     line-height: 1.1;
@@ -647,5 +654,16 @@ button {
     font-size: 1.6rem;
     line-height: 1.8;
     color: #797979;
+  }
+  .hc2 input {
+    background-color: #e8e4ff;
+    color: #5236ff;
+  }
+  .hc2 input::placeholder {
+    color: #5236ff;
+  }
+  .hcbt .chittabtn {
+    border: 1px solid #5236ff;
+    color: #5236ff;
   }
 }

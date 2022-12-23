@@ -22,7 +22,8 @@
   width: 100vw;
   margin: 0 auto;
   position: relative;
-  height: 102vh;
+  /* height: 102vh; */
+  height: 80rem;
   display: flex;
   flex-direction: column;
   background-image: url("Background\ \(3\).png");

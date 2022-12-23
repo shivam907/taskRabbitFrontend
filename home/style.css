@@ -5,6 +5,24 @@
   font-family: "Nunito";
   font-size: 62.5%;
 }
+.scrolled {
+  /* filter: blur(10px); */
+  background-color: #00000030;
+  padding: 2rem 0 1rem 0;
+  transition: all 0.2s ease-in-out;
+  backdrop-filter: blur(10px);
+  z-index: 99;
+}
+/* .blur {
+  top: 0;
+  background-color: transparent;
+  /* filter: blur(10px); 
+
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+} */
 
 .hero {
   width: 144rem;
@@ -32,14 +50,21 @@
   width: 100%;
   z-index: -1;
 }
-
+.nav-el {
+  /* background-color: #00000030 !important; */
+}
 nav {
-  width: 120rem;
+  /* position: relative; */
+  width: 100vw;
   margin: 0 auto;
   padding-top: 4rem;
   display: flex;
-  justify-content: space-between;
-  /* z-index: 999999; */
+  justify-content: center;
+  gap: 40rem;
+  /* position: sticky; */
+  position: fixed;
+  z-index: 999999;
+  transition: all 0.2s ease-in-out;
 }
 
 .logo {
@@ -114,6 +139,7 @@ nav {
 }
 .hc1 h1 {
   font-size: 5rem;
+  max-width: 40rem;
   letter-spacing: 0.2rem;
   line-height: 1.1;
   font-weight: 800;
@@ -574,6 +600,7 @@ button {
   .hero {
     width: 100vw;
     margin: 0 auto;
+    /* padding: 10rem 0; */
     position: relative;
     /* height: 50rem; */
     display: flex;

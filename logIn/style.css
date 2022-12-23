@@ -161,3 +161,22 @@ input:focus {
   top: 3rem;
   right: 3rem;
 }
+
+.heroContent p {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #fff;
+}
+
+.heroContent p a {
+  padding: 0 !important;
+  align-self: center;
+  margin: 0;
+  color: blue;
+  font-weight: 600;
+  font-size: 1.6rem;
+}

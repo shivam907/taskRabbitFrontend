@@ -5,12 +5,24 @@
   font-family: "Nunito";
   font-size: 62.5%;
 }
+.scrolled {
+  /* filter: blur(10px); */
+  /* width: 100vw;
+  position: fixed; */
+  /* top: 0; */
+  background-color: #5236ff90;
+  padding: 1.8rem 0 0 0;
+  top: -2rem;
+  /* transition: 0.2s ease-in-out; */
+  backdrop-filter: blur(10px);
+  z-index: 99;
+}
 
 .hero {
-  width: 144rem;
+  width: 100vw;
   margin: 0 auto;
   position: relative;
-  height: 50rem;
+  height: 81rem;
   display: flex;
   flex-direction: column;
   background-image: url("Testimonial.svg");
@@ -36,12 +48,38 @@
 }
 
 nav {
+  /* position: relative; */
+  /* position: absolute; */
   width: 120rem;
+  /* position: fixed; */
   margin: 0 auto;
+  /* padding: 0 0 0 12rem; */
   padding-top: 4rem;
   display: flex;
-  justify-content: space-between;
-  /* z-index: 999999; */
+  justify-content: center;
+  padding: 1rem 0 1rem;
+  gap: 38rem;
+  /* position: sticky; */
+  z-index: 999999;
+  /* transition: 0.2s ease-in-out; */
+}
+.nav2 {
+  position: fixed;
+  /* position: fixed; */
+  width: 100vw;
+  /* background-color: #00000050; */
+  z-index: 9;
+  /* transition: 0.2s ease-in-out; */
+  /* height: auto; */
+  /* padding: 0 12rem; */
+  margin: 0 auto;
+}
+.logo {
+  font-size: 3rem;
+  align-self: center;
+}
+.chitta {
+  color: #fff;
 }
 .heroContent h1 {
   font-size: 5rem;
@@ -50,6 +88,15 @@ nav {
 .heroContent h2 {
   font-size: 3rem;
   color: #fff;
+}
+.heroContent p {
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 1.6;
+  max-width: 80rem;
+  text-align: center;
+  align-self: center;
+  letter-spacing: 0.1rem;
 }
 .logo {
   font-size: 3rem;
@@ -101,8 +148,9 @@ nav {
   margin: 0 auto;
   height: 100%;
   display: flex;
+  padding-top: 5rem;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   gap: 10rem;
   align-items: center;
 }

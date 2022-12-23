@@ -655,7 +655,7 @@ button {
     justify-content: center;
     align-items: center;
     /* padding-top: 10rem; */
-    gap: 2rem;
+    /* gap: 2rem; */
   }
   .hc1 h1 {
     text-align: center;
@@ -674,6 +674,7 @@ button {
   }
   .hc2 input {
     background-color: #e8e4ff;
+    margin-bottom: 2rem;
     color: #5236ff;
   }
   .hc2 input::placeholder {

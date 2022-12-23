@@ -551,6 +551,16 @@ button {
   }
 } */
 
+.navbar {
+  font-size: 5rem;
+  align-self: center;
+  /* color: #797979; */
+  display: none;
+}
+.none {
+  display: none !important;
+}
+
 @media screen and (max-width: 768px) {
   * {
     font-size: 2vw;
@@ -589,11 +599,13 @@ button {
 
   nav {
     /* width: 120rem; */
+    display: flex;
     width: 100vw;
     /* margin: 0 auto; */
     padding: 4rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     /* justify-content: space-between; */
     /* z-index: 999999; */
   }
@@ -609,7 +621,35 @@ button {
 
   .nav {
     display: flex;
+    /* width: 100vw; */
+    /* justify-content: center; */
     gap: 5rem;
+  }
+  .navigation {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffffec;
+    z-index: 9999999999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* display: none; */
+  }
+  .navigation a {
+    /* display: none; */
+    z-index: 1;
+    font-size: 3rem;
+    padding: 1.5rem 3rem;
+    border-radius: 5rem;
+    /* background-color: #fff; */
+    cursor: pointer;
+    color: #000;
+  }
+  .navigation .signUp {
+    margin-top: 2rem;
+    color: #fff;
   }
   .nav a {
     display: none;
@@ -621,6 +661,15 @@ button {
     cursor: pointer;
     color: #000;
   }
+
+  .navigation ion-icon {
+    position: absolute;
+    color: #242331;
+    font-size: 5rem;
+    top: 2rem;
+    right: 2rem;
+  }
+
   .nav a:hover {
     background-color: #e8e4ff;
   }
@@ -965,7 +1014,16 @@ button {
     flex-direction: column;
     /* gap: 1.5rem; */
   }
-
+  .navbar {
+    display: flex;
+    font-size: 5rem;
+    /* width: 10rem; */
+  }
+  .navbar ion-icon {
+    font-size: 4rem;
+    color: #fff;
+    cursor: pointer;
+  }
   .fr2 a {
     margin-bottom: 1.5rem;
   }

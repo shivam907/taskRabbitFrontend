@@ -543,3 +543,109 @@ button {
 .rbtn:hover {
   background-color: #00000025;
 }
+
+@media screen and (max-width: 60rem) {
+  * {
+    font-size: 50%;
+  }
+  .hero {
+    width: 100vw;
+    margin: 0 auto;
+    position: relative;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    /* background-color: antiquewhite; */
+    /* background-image: url("./Background.png"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: 70%; */
+    /* background-position: right; */
+    /* background-position: top right; */
+    /* z-index: 1; */
+  }
+  .hero-img1 {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .hero-img2 {
+    display: none;
+  }
+
+  nav {
+    /* width: 120rem; */
+    /* margin: 0 auto; */
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* z-index: 999999; */
+  }
+
+  .logo {
+    font-size: 3rem;
+  }
+
+  .nav ul {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+    gap: 5rem;
+  }
+  .nav a {
+    z-index: 1;
+    font-size: 1.8rem;
+    padding: 1.5rem 3rem;
+    border-radius: 5rem;
+    background-color: #fff;
+    cursor: pointer;
+    color: #000;
+  }
+  .nav a:hover {
+    background-color: #e8e4ff;
+  }
+
+  .heroContent {
+    /* width: 120rem; */
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .hc1 {
+    width: 50%;
+    height: 120%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    z-index: 1;
+    justify-content: flex-end;
+  }
+  .hc2 {
+    width: 50%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+    gap: 2rem;
+  }
+  .hc1 h1 {
+    font-size: 5rem;
+    letter-spacing: 0.2rem;
+    line-height: 1.1;
+    font-weight: 800;
+  }
+
+  .hc1 p {
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #797979;
+  }
+}

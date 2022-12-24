@@ -180,3 +180,37 @@ input:focus {
   font-weight: 600;
   font-size: 1.6rem;
 }
+@media screen and (max-width: 768px) {
+  * {
+    font-size: 2vw;
+    /* overflow-x: hidden; */
+  }
+  html,
+  body {
+    /* width: 50vw; */
+    overflow-x: hidden;
+    position: relative;
+  }
+  .hero {
+    width: 100vw;
+    margin: 0 auto;
+    /* padding: 10rem 0; */
+    position: relative;
+    /* padding-top: 5rem; */
+    /* height: 50rem; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: antiquewhite; */
+    /* background-image: url("./Background.png"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: 70%; */
+    /* background-position: right; */
+    /* background-position: top right; */
+    /* z-index: 1; */
+    padding: 2rem;
+    padding-right: 3rem;
+    margin: 2rem;
+  }
+  .heroContent {
+  }
+}

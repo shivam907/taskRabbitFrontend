@@ -43,20 +43,6 @@ a {
   text-decoration: none;
 }
 
-.signUp {
-  padding: 1.5rem 3rem;
-  font-size: 1.6rem;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #5236ff;
-  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
-  border-radius: 5rem;
-}
-.signUp:hover {
-  background-color: #735eff;
-}
 .logIn {
   padding: 1.5rem 3rem;
   font-size: 1.6rem;
@@ -73,20 +59,7 @@ a {
 input:focus {
   outline: 1px solid #fff;
 }
-.chittabtn {
-  font-size: 1.6rem;
-  padding: 1.5rem 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 5rem;
-  background-color: #fff;
-  color: #000;
-}
 
-.chittabtn:hover {
-  background-color: #efecff;
-}
 .heroContent {
   width: 100%;
   margin: 0 auto;
@@ -210,7 +183,5 @@ input:focus {
     padding: 2rem;
     padding-right: 3rem;
     margin: 2rem;
-  }
-  .heroContent {
   }
 }

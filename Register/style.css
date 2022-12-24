@@ -501,230 +501,33 @@ input:focus {
   .nav a:hover {
     background-color: #e8e4ff;
   }
-
+  .hero {
+    height: 92rem;
+    /* margin-bottom: 5rem; */
+    /* width: ; */
+    /* padding: 0/; */
+  }
+  .hrc2 a {
+    margin-left: 0;
+  }
   .heroContent {
-    /* width: 120rem; */
+    padding: 1.5rem;
     width: 100vw;
-    margin: 0 auto;
-    padding: 3rem;
-    /* height: 100%; */
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
-  .heroContent h1 {
-    text-align: center;
+  .input1 {
+    gap: 1rem;
   }
-  .services {
-    width: 100vw;
-    margin: 10rem auto;
-    margin-bottom: 10rem;
+  .inputBox {
+    margin-left: 0;
   }
-  .services h1 {
-    color: #5236ff;
-    font-size: 4.2rem;
-    text-align: center;
-    z-index: 2;
-  }
-  .services h2 {
-    font-size: 3rem;
-    text-align: center;
-    margin-top: 3rem;
-  }
-  .serviceBox {
-    margin-top: 3rem;
-    width: 40rem;
-    padding: 2rem;
-    background-color: #f9f9f9;
-    border-radius: 2.5rem;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
-    transition: all 0.2s ease-in-out;
-  }
-  .serviceBox:hover {
-    transform: translateY(-2rem);
-    transition: all 0.2s ease-in-out;
-  }
-  .serviceImg {
-    border-radius: 2.5rem;
+  .hrc1,
+  .hrc2 {
     width: 100%;
-    height: 20rem;
-    background-image: url("Photo.png");
-    padding: 1rem;
-    display: flex;
-    align-items: flex-end;
-    background-size: cover;
-  }
-  .serviceBox h1 {
-    margin-top: 3rem;
-    color: #242331;
-    font-size: 2rem;
-  }
-  .serviceBox p {
-    margin-top: 2rem;
-    color: #797979;
-    font-size: 1.4rem;
-    line-height: 1.6;
-  }
-  .serviceImg .chittabtn {
-    width: 20rem;
-    font-size: 1.6rem;
-    padding: 1rem;
-  }
-  .serviceCard {
-    /* margin-top: 5rem; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    /* gap: 4rem; */
-  }
-  .about {
-    width: 100vw;
-    /* height: 50rem; */
-    background-color: #5236ff;
-    background-image: url("Background\ \(2\).png");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .aboutContent {
-    /* padding: 10rem; */
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 3rem;
-  }
-  .aboutContent h1 {
-    color: #fff;
-
-    padding: 1.5rem 2.3rem;
-    background-color: #ffffff20;
-    border-radius: 5rem;
-    font-size: 1.8rem;
-    width: max-content;
-    /* font-size: 4rem; */
-    text-align: center;
-  }
-  .aboutContent h2 {
-    color: #fff;
-    font-size: 4rem;
-    text-align: center;
-  }
-  .aboutContent span {
-    margin-top: -5rem;
-    font-family: cursive;
-    font-size: 10rem;
-    margin: 0;
-    padding: 0;
-    color: #fff;
-  }
-  .row {
-    margin-top: -7rem;
-    display: flex;
-    justify-content: space-between;
-    gap: 3rem;
-    width: 150%;
-    margin-bottom: 1rem;
-  }
-  .aboutContent p {
-    width: 60rem;
-    font-size: 1.6rem;
-    line-height: 1.6;
-    text-align: center;
-    color: #fff;
-  }
-  button {
-    border: none;
-  }
-  .rbtn {
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 6rem;
-    height: 6rem;
-    font-size: 10rem;
-    padding: 1rem;
-    background-color: #ffffff20;
-    color: #fff;
-    border-radius: 50%;
-  }
-  .rbtn ion-icon {
-    font-size: 2rem;
-  }
-  .aboutContent img {
-    margin-top: 2rem;
-    width: 10rem;
-    border-radius: 50%;
-  }
-  .user {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .user h1 {
-    font-size: 2.4rem;
-    color: #fff;
-    padding: 0;
-    background-color: transparent;
-    margin-top: 1rem;
-  }
-  .user p {
-    font-size: 1.8rem;
-    color: #fff;
-    margin-top: 2rem;
-  }
-  .stars {
-    display: flex;
-    gap: 0.3rem;
-  }
-  .stars ion-icon {
-    font-size: 2.5rem;
-    color: gold;
-  }
-  .start {
-    width: 97vw;
-    /* height: 50rem; */
-    /* border-top-right-radius: 5rem; */
-    /* border-bottom-right-radius: 7rem; */
-    /* border-radius: 50px; */
-    border-radius: 5rem;
-    margin: 10rem auto;
-    background: url("Background\ \(3\).png");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* gap: 3rem; */
-    padding: 5rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
-  .start h1 {
-    font-size: 4rem;
-    color: #fff;
     margin-bottom: 3rem;
   }
-  .start p {
-    font-size: 1.8rem;
-    font-weight: 300;
-    color: #fff;
-    line-height: 1.6;
-    margin-bottom: 4rem;
-  }
-
-  .btnss {
-    display: flex;
-    gap: 2rem;
-    color: #5236ff;
-  }
-  .btnss a {
-    margin-right: 3rem;
-  }
-
   .footerContent {
     position: relative;
     width: 100vw;

@@ -405,7 +405,7 @@ input:focus {
   html,
   body {
     /* width: 50vw; */
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
   .hero {
     width: 100vw;
@@ -415,6 +415,7 @@ input:focus {
     /* height: 50rem; */
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background-position: top right;
     background-size: 200%;
     /* background-color: antiquewhite; */
@@ -429,16 +430,36 @@ input:focus {
     /* background-position: top right; */
     /* z-index: 1; */
   }
+  .heroContent {
+    max-width: 90vw !important;
+    margin: 0 auto;
+  }
+  .book {
+    width: 80vw;
+  }
   .heroContent h1 {
+    margin: 5rem 0;
     text-align: center;
   }
-  .hero-img1 {
+  . .hero-img1 {
     position: absolute;
     right: 0;
     width: 100vw;
     z-index: -1;
   }
-
+  .btns {
+  }
+  .btnss {
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .btnss a {
+    margin-top: 1rem;
+    width: auto !important;
+    padding: 1rem;
+    font-size: 1.3rem;
+  }
   .hero-img2 {
     display: none;
   }

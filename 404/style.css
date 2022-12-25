@@ -392,6 +392,7 @@ a {
   }
   .hero {
     width: 100vw;
+    height: 80vh;
     margin: 0 auto;
     /* padding: 10rem 0; */
     position: relative;
@@ -406,6 +407,9 @@ a {
     /* background-position: right; */
     /* background-position: top right; */
     /* z-index: 1; */
+  }
+  .heroContent a {
+    /* margin-bottom: 10rem; */
   }
   .hero-img1 {
     position: absolute;
@@ -512,7 +516,9 @@ a {
   button {
     border: none;
   }
-
+  footer {
+    margin-top: 10rem;
+  }
   .footerContent {
     position: relative;
     width: 100vw;
@@ -586,7 +592,7 @@ a {
   .navbar ion-icon {
     z-index: 999999999999999999999;
     font-size: 4rem;
-    color: #fff;
+    color: #242331;
     cursor: pointer;
   }
   .fr2 a {

@@ -354,6 +354,7 @@ a {
   display: flex;
   gap: 2rem;
 }
+
 .email ion-icon {
   align-self: center;
   color: #5236ff;
@@ -367,6 +368,9 @@ a {
 
 .footerContent a {
   font-size: 1.6rem;
+  color: #797979;
+}
+.fr1 .email a {
   color: #797979;
 }
 .fr2 h1 {
@@ -639,7 +643,7 @@ main {
   /* background-color: #053025; */
 }
 
-ion-icon {
+.ion {
   font-size: 2rem;
   padding: 1rem;
   background-color: #e0dbff;
@@ -811,9 +815,12 @@ ion-icon {
   display: flex;
   gap: 2rem;
 }
+.spc {
+  margin-right: 3rem;
+}
 
 .inputs {
-  padding-left: 3rem;
+  padding: 0 3rem;
   display: flex;
   gap: 1.5rem;
 }

@@ -232,17 +232,18 @@ a {
 }
 .box-h {
   /* border-radius: 3rem; */
-  font-size: 5rem;
-  padding: 2.5rem;
+  font-size: 3.5rem;
+  padding: 1.5rem 3rem;
+  font-weight: 800;
   color: #fff;
-  background-color: #907eff99;
+  background-color: #907eff;
 }
 .boxContent {
   background-color: #e0dbff;
   padding: 3rem;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2.5rem;
 }
 
 .boxC1 {
@@ -390,7 +391,7 @@ textarea {
   border: 2px solid #00000025;
   font-size: 2rem;
   width: 100%;
-  height: 20rem;
+  height: 17rem;
   padding: 2rem;
   border-radius: 1.2rem;
 }

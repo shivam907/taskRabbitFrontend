@@ -745,10 +745,28 @@ ul {
     position: relative;
   }
   .modal {
-    display: none;
+    /* display: none; */
+    width: 90vw;
+    flex-direction: column;
   }
-  .profile {
+  .modal h1 {
+    width: 60%;
+    text-align: center;
+  }
+  .mr {
     display: flex;
+    flex-direction: column;
+  }
+
+  .profile {
+    /* display: flex; */
+  }
+  .line {
+    height: 0.2rem;
+    width: 80%;
+    align-self: center;
+    background-color: #00000025;
+    /* margin: 0 0 3rem 0; */
   }
   .hero {
     width: 100vw;

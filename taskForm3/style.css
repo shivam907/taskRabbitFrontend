@@ -731,6 +731,9 @@ ul {
   /* font-weight: 700; */
   font-size: 1.4rem;
 }
+.non {
+  display: none !important;
+}
 @media screen and (max-width: 768px) {
   * {
     font-size: 2vw;
@@ -741,6 +744,10 @@ ul {
     /* width: 50vw; */
     overflow-x: hidden;
     position: relative;
+  }
+  .payres {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
   }
   .hero {
     width: 100vw;
@@ -771,7 +778,47 @@ ul {
     height: 67%;
     z-index: -1;
   }
-
+  .block {
+    display: flex;
+    flex-direction: column;
+  }
+  .block2 {
+    width: 90vw;
+  }
+  .pay {
+    /* display: grid !important; */
+    /* grid-template-columns: 2fr 1fr !important; */
+    /* grid-template-rows: 1fr 1fr !important; */
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .pay input:first-child {
+    /* width: 150% !important; */
+  }
+  .tasker {
+    margin-left: 3rem !important;
+  }
+  .block2 p {
+    width: 100%;
+  }
+  h1 {
+    margin-left: 0 !important;
+  }
+  .name {
+    width: 100%;
+  }
+  .bck1 {
+    width: 100%;
+  }
+  .priceForm {
+    width: 80%;
+  }
+  .non {
+    display: flex !important;
+  }
+  .ys {
+    display: none !important;
+  }
   .hero-img2 {
     display: none;
   }

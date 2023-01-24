@@ -109,7 +109,7 @@
   color: #000;
 }
 .chitta {
-  color: #fff;
+  color: #fff !important;
 }
 .nav ul {
   display: flex;

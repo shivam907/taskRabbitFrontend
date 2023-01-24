@@ -142,7 +142,7 @@ $radius: 50%; */
   align-self: center;
 }
 .chitta {
-  color: #fff;
+  color: #fff !important;
 }
 .nav ul {
   display: flex;
@@ -162,7 +162,18 @@ $radius: 50%; */
   z-index: 1;
   font-size: 1.6rem;
 }
+.nav ul li a {
+  padding: 0 !important;
+  color: #242331;
+  cursor: pointer;
+  z-index: 1;
+  font-size: 1.6rem;
+}
 
+.logo a {
+  color: #000;
+  font-size: 3rem !important;
+}
 .nav ul li:hover {
   background-color: #cccccc50;
   border-radius: 5rem;
@@ -172,7 +183,7 @@ $radius: 50%; */
   gap: 5rem;
   transition: 0.2s ease-in-out;
 }
-.nav a {
+.become {
   z-index: 1;
   font-size: 1.6rem;
   padding: 1.5rem 3rem;
@@ -181,7 +192,7 @@ $radius: 50%; */
   cursor: pointer;
   /* color: #fff; */
 }
-.nav a:hover {
+.become:hover {
   /* background-color: #735eff; */
 }
 
@@ -852,7 +863,7 @@ ul {
     margin-top: 2rem;
     color: #fff;
   }
-  .nav a {
+  .become {
     display: none;
     z-index: 1;
     font-size: 1.8rem;
@@ -871,7 +882,7 @@ ul {
     right: 2rem;
   }
 
-  .nav a:hover {
+  .become:hover {
     background-color: #e8e4ff;
   }
 

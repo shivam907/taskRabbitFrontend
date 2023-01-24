@@ -104,6 +104,10 @@
   font-size: 3rem;
   align-self: center;
 }
+.logo a {
+  font-size: 3rem;
+  color: #000;
+}
 .chitta {
   color: #fff;
 }
@@ -118,12 +122,17 @@
   z-index: 1;
 }
 
-.nav ul li {
+.nav ul li,
+.nav ul li a {
   padding: 1.5rem 2.3rem;
+  /* width: 15rem; */
   color: #fff;
   cursor: pointer;
   z-index: 1;
   font-size: 1.6rem;
+}
+.nav ul li a {
+  padding: 0 0 !important;
 }
 
 .nav ul li:hover {
@@ -135,7 +144,7 @@
   gap: 5rem;
   transition: 0.2s ease-in-out;
 }
-.nav a {
+.become {
   z-index: 1;
   font-size: 1.6rem;
   padding: 1.5rem 3rem;
@@ -144,7 +153,7 @@
   cursor: pointer;
   color: #000;
 }
-.nav a:hover {
+.become:hover {
   background-color: #e8e4ff;
 }
 
@@ -722,7 +731,7 @@ button {
     margin-top: 2rem;
     color: #fff;
   }
-  .nav a {
+  .become {
     display: none;
     z-index: 1;
     font-size: 1.8rem;
@@ -741,7 +750,7 @@ button {
     right: 2rem;
   }
 
-  .nav a:hover {
+  .become a:hover {
     background-color: #e8e4ff;
   }
 

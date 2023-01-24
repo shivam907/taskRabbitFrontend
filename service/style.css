@@ -17,6 +17,11 @@
   backdrop-filter: blur(10px);
   z-index: 99;
 }
+
+.logo a {
+  font-size: 3rem;
+  color: #fff;
+}
 /* .blur {
   top: 0;
   background-color: transparent;
@@ -123,6 +128,16 @@
   z-index: 1;
   font-size: 1.6rem;
 }
+.nav ul li a {
+  padding: 1.5rem 2.3rem;
+  color: #fff;
+  cursor: pointer;
+  z-index: 1;
+  font-size: 1.6rem;
+}
+.nav ul li a {
+  padding: 0 !important;
+}
 
 .nav ul li:hover {
   background-color: #ffffff50;
@@ -132,7 +147,7 @@
   display: flex;
   gap: 5rem;
 }
-.nav a {
+.become {
   z-index: 1;
   font-size: 1.6rem;
   padding: 1.5rem 3rem;
@@ -141,7 +156,7 @@
   cursor: pointer;
   color: #000;
 }
-.nav a:hover {
+.become:hover {
   background-color: #e8e4ff;
 }
 
@@ -582,7 +597,7 @@ input:focus {
     margin-top: 2rem;
     color: #fff;
   }
-  .nav a {
+  .become {
     display: none;
     z-index: 1;
     font-size: 1.8rem;
@@ -601,7 +616,7 @@ input:focus {
     right: 2rem;
   }
 
-  .nav a:hover {
+  .become:hover {
     background-color: #e8e4ff;
   }
 

@@ -130,6 +130,11 @@ $radius: 50%; */
   margin: 0 auto;
   /* background-color: #5236ff; */
 }
+
+.logo a {
+  font-size: 3rem;
+  color: #000;
+}
 .navv {
   width: 120rem;
   margin: 0 auto;
@@ -172,7 +177,7 @@ $radius: 50%; */
   gap: 5rem;
   transition: 0.2s ease-in-out;
 }
-.nav a {
+.become {
   z-index: 1;
   font-size: 1.6rem;
   padding: 1.5rem 3rem;
@@ -908,7 +913,7 @@ ul {
     margin-top: 2rem;
     color: #fff;
   }
-  .nav a {
+  .become {
     display: none;
     z-index: 1;
     font-size: 1.8rem;
